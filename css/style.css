@@ -37,55 +37,7 @@ p{
     font-family: Helvetica, sans-serif;
 }
 
-main,
-header{
-    width:100%;
-    max-width:1400px; /* means it won't be larger than 1200px on larger screens */
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 30px 3%;
-}
-
-header.documentation-header{
-    padding: 0 3%;
-}
-
-.documentation-header section,
-main.documentation-page section{
-    margin: 10px 10%;
-}
-
-footer{
-    width:100%;
-    min-height:100px;
-}
 
 
-nav{
-    padding:10px 3%;
-}
-
-nav a{
-    color: black;
-    text-decoration: none;
-}
-nav a:hover{
-    color: grey;
-}
-
-.center-text{
-    text-align: center;
-}
-
-img{
-    width: 100%;
-}
-
-.flex-basis-third .flex-item{
-    flex-basis: 33.33%; 
-}
-
-.flex-basis-half .flex-item{
-    flex-basis: 50%; 
 }
 
