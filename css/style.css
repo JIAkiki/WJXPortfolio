@@ -4,6 +4,10 @@
 body{
     font-family: Verdana, sans-serif;
     margin: 0;
+    background-image: url('./images/background.png');
+    background-size: cover; /* This scales the image to cover the entire body */
+    background-repeat: no-repeat; /* Prevents image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
 }
 
 header h1{
