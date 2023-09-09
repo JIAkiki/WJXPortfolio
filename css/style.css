@@ -47,6 +47,10 @@ header.documentation-header{
     padding: 0 3%;
 }
 
+header .centered-content {
+    text-align: center;
+}/**/
+
 .documentation-header section,
 main.documentation-page section{
     margin: 10px 10%;
@@ -112,6 +116,9 @@ img{
     flex-basis: 25%; /*width of the box, take up a quarter of the parent's size*/
     box-sizing: border-box; /*this means that we can add padding, line below, and still only take 25% width of parent*/
     padding: 5px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
     
 }
 
