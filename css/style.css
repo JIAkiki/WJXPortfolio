@@ -112,6 +112,12 @@ img{
     flex-basis: 25%; /*width of the box, take up a quarter of the parent's size*/
     box-sizing: border-box; /*this means that we can add padding, line below, and still only take 25% width of parent*/
     padding: 5px;
+    
+}
+
+.flex-item img {
+    width: 200px;
+    height: 150px;
 }
 
 .flex-basis-third .flex-item{
